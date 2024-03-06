@@ -1,0 +1,44 @@
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        color:#000;
+        font-size: 32px;
+    }
+
+    .nav_icon{
+        display: none;
+    }
+}
+
+
+@media (max-width:800px) {
+    
+    .container_header{
+        h2{
+            font-size: 22px;
+        }
+    }
+}
+
+@media (max-width:500px) {
+    
+    .container_header{
+        h2{
+            font-size: 22px;
+
+        }
+
+        .header_nav_items{
+            display: none;
+        }
+
+        .nav_icon{
+            display: block;
+            font-size: 30px;
+        }
+    }
+}
+
+

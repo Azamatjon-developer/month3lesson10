@@ -1,0 +1,47 @@
+.hero{
+    .hero_all{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding-top: 59px;
+
+
+        .hero-right{
+            position: relative;
+
+
+            h2{
+                position: absolute;
+                bottom: 250px;
+                opacity: 0.5;
+            }
+
+            h3{
+                width: 400px;
+                position: absolute;
+                font-size: 36px;
+                line-height: 42px;
+                color:#000;
+                bottom: 120px;
+
+            }
+            h4{
+                letter-spacing: 2px;
+                padding-top: 20px;
+                text-transform: uppercase;
+
+            }
+        }
+    }
+}
+
+
+@media (max-width:1000px) {
+
+    .hero_all{
+        flex-direction: column-reverse;
+    }
+
+
+    
+}
